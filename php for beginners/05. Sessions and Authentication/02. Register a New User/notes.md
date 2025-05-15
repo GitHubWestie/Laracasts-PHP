@@ -105,3 +105,4 @@ if ($user) {
 }
 ```
 
+Another point to note is to ALWAYS either exit() or die() after a header('location: /'); This ensures that any script from the previous location is prevented from executing any further.
