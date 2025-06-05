@@ -44,7 +44,7 @@ function old($key, $default = '') {
 }
 ```
 
-Now the view can use the function instead, keeping it clean and simple.
+Now the view can use the function instead, keeping it clean and simple and also allowing for a default value rather than an empty string if required.
 
 **views/sessions/create.view.php**
 ```php
